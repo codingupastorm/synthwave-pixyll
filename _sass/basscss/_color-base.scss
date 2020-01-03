@@ -1,0 +1,26 @@
+/* Basscss Color Base */
+
+body {
+  color: white;
+  background-color: transparent !important;
+  background-image: linear-gradient(to bottom, #1a1129 50%, #34294f);
+  background-position: top;
+}
+
+a {
+  color: $blue;
+  text-decoration: none;
+}
+
+pre,
+code {
+  background-color: $lighter-gray;
+  border-radius: $border-radius;
+}
+
+hr {
+  border: 0;
+  border-bottom-style: solid;
+  border-bottom-width: $border-width;
+  border-bottom-color: $border-color;
+}

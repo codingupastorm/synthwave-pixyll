@@ -1,0 +1,38 @@
+a {
+  color: #f92aad;
+  text-shadow: 0 0 2px #100c0f, 0 0 10px #dc078e, 0 0 20px #fff3;
+}
+
+a:hover,
+a:focus,
+a:active {
+opacity: 0.88;
+}
+
+// Correct issues with buttons
+button,
+.button {
+  text-shadow: none;
+  background-image: none;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  color: white;
+  text-shadow: none;
+  background-image: none;
+}
+
+.anchorjs-link {
+    text-shadow: none;
+    background-image: none;
+}
+.anchorjs-link:hover,
+.anchorjs-link:focus,
+.anchorjs-link:active{
+    border: 0;
+    color: $link-hover-color;
+    text-shadow: none;
+    background-image: none;
+}
